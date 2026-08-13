@@ -1,0 +1,119 @@
+{
+  "personal": {
+    "name": "Berbin Rejo J",
+    "title": "B.Tech - Artificial Intelligence & Data Science",
+    "location": "Chennai, Tamil Nadu, India",
+    "email": "berbinrejo072@gmail.com",
+    "phone": "+91 9042812315",
+    "summary": "Final-year B.Tech student specializing in Artificial Intelligence & Data Science with strong foundations in Python, SQL, DBMS and UiPath RPA. Experienced in AI and automation projects. Solved 500+ SkillRack and 150+ LeetCode problems. Seeking a Software Engineer or AI/Data role.",
+    "linkedin": "https://www.linkedin.com/in/berbin-rejo-j-a41bb2302/",
+    "github": "https://github.com/BerbinrejoJ"
+  },
+  "education": [
+    {
+      "institution": "St. Joseph's Institute of Technology, Chennai",
+      "degree": "B.Tech - Artificial Intelligence & Data Science (AI & DS)",
+      "period": "2023 - 2027",
+      "status": "Pursuing"
+    },
+    {
+      "institution": "Holy Angels Matric Hr. Sec. School, Chentharai, Kanyakumari",
+      "degree": "Higher Secondary (12th Standard)",
+      "period": "2021 - 2023",
+      "score": "83.5%"
+    },
+    {
+      "institution": "Holy Angels Matric Hr. Sec. School, Chentharai, Kanyakumari",
+      "degree": "Secondary (10th Standard)",
+      "period": "2021"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Intelligent Chatbot for Student Assistance",
+      "technologies": [
+        "Python",
+        "NLP"
+      ],
+      "description": "Built a chatbot using Natural Language Processing to answer student queries.",
+      "details": [
+        "Implemented intent recognition and response generation for effective interaction."
+      ]
+    },
+    {
+      "name": "House Price Prediction System",
+      "technologies": [
+        "Python",
+        "ML",
+        "Regression"
+      ],
+      "description": "Designed a regression model to predict house prices using real-world datasets.",
+      "details": [
+        "Applied data visualization to analyze trends and improve model performance."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Python (Intermediate)",
+      "Java (Basics)"
+    ],
+    "Web Technologies": [
+      "HTML"
+    ],
+    "Database Technologies": [
+      "SQL (Intermediate)",
+      "Database Management Systems (DBMS)"
+    ],
+    "RPA & Automation": [
+      "UiPath",
+      "Process Automation",
+      "Workflow Design"
+    ],
+    "AI Tools": [
+      "ChatGPT",
+      "Google Gemini",
+      "Claude AI",
+      "GitHub"
+    ],
+    "Developer Tools": [
+      "Jupyter Notebook",
+      "VS Code",
+      "Git (Basic)",
+      "Microsoft Excel"
+    ],
+    "AI / ML": [
+      "Machine Learning",
+      "NLP",
+      "Regression"
+    ]
+  },
+  "coding_profiles": {
+    "SkillRack": "500+ problems solved",
+    "LeetCode": "150+ problems solved"
+  },
+  "certifications": [
+    "NPTEL - Database Management Systems (DBMS)",
+    "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    "Python for Data Science - NPTEL",
+    "Robotic Process Automation (RPA) using UiPath - Domain Training"
+  ],
+  "achievements": [
+    "Actively participated in workshops and seminars on AI/ML and RPA.",
+    "Completed multiple hands-on labs and mini projects in RPA."
+  ],
+  "interests": [
+    "Artificial Intelligence",
+    "Data Analytics",
+    "Robotic Process Automation"
+  ],
+  "languages_known": [
+    "Tamil",
+    "English"
+  ],
+  "soft_skills": [
+    "Problem Solving",
+    "Communication",
+    "Team Collaboration"
+  ]
+}
