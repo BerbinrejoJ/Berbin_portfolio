@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Berbin Rejo J, B.Tech Artificial Intelligence & Data Science student.">
+  <title>Berbin Rejo J | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a href="#home" class="logo">BERBIN<span>.</span></a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+    <h1>Hi, I'm <span>Berbin Rejo J</span></h1>
+    <h2>B.Tech - Artificial Intelligence & Data Science</h2>
+    <p class="hero-text">Final-year B.Tech student specializing in Artificial Intelligence & Data Science with strong foundations in Python, SQL, DBMS and UiPath RPA.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">Explore My Work</a>
+      <button class="btn secondary" id="openChatbot">🤖 Ask About Me</button>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="glow"></div>
+    <img src="assets/profile.png" alt="Professional portrait of Berbin Rejo J">
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-title"><p class="eyebrow">ABOUT ME</p><h2>Building practical technology solutions.</h2></div>
+  <div class="about-grid">
+    <div class="card">
+      <p>Final-year B.Tech student specializing in Artificial Intelligence & Data Science, with strong foundations in Python, SQL, DBMS and UiPath RPA.</p>
+      <p>Experienced in AI and automation projects, with 500+ SkillRack and 150+ LeetCode problems solved.</p>
+      <p>Seeking a Software Engineer or AI/Data role.</p>
+    </div>
+    <div class="stats">
+      <div class="stat card"><strong>500+</strong><span>SkillRack</span></div>
+      <div class="stat card"><strong>150+</strong><span>LeetCode</span></div>
+      <div class="stat card"><strong>2023–2027</strong><span>B.Tech</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-title"><p class="eyebrow">TECHNICAL SKILLS</p><h2>Tools and technologies.</h2></div>
+  <div id="skillsGrid" class="grid"></div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-title"><p class="eyebrow">PROJECTS</p><h2>Selected work.</h2></div>
+  <div id="projectsGrid" class="project-grid"></div>
+</section>
+
+<section id="certifications" class="section">
+  <div class="section-title"><p class="eyebrow">CERTIFICATIONS</p><h2>Courses and credentials.</h2></div>
+  <div id="certificationsList" class="cert-list"></div>
+</section>
+
+<section id="contact" class="section">
+  <div class="section-title"><p class="eyebrow">CONTACT</p><h2>Let's connect.</h2></div>
+  <div class="contact card">
+    <p>Interested in connecting for opportunities, projects, or collaboration?</p>
+    <div class="contact-links">
+      <a href="mailto:berbinrejo072@gmail.com">📧 Email</a>
+      <a href="tel:+919042812315">📱 Phone</a>
+      <a href="https://www.linkedin.com/in/berbin-rejo-j-a41bb2302/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/BerbinrejoJ" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Berbin Rejo J. Built with HTML, CSS and JavaScript.</footer>
+
+<aside id="chatbot" class="chatbot" aria-label="Berbin AI Portfolio Assistant">
+  <div class="chat-header">
+    <div><strong>🤖 Berbin AI</strong><small>Portfolio Assistant</small></div>
+    <button id="closeChatbot" aria-label="Close">×</button>
+  </div>
+  <div id="chatMessages" class="chat-messages">
+    <div class="message bot">👋 Hi! I’m Berbin’s portfolio assistant. Ask me anything about his skills, education, projects or certifications.</div>
+  </div>
+  <div class="suggestions">
+    <button data-question="What are Berbin's skills?">Skills</button>
+    <button data-question="Tell me about his projects">Projects</button>
+    <button data-question="What certifications does he have?">Certifications</button>
+  </div>
+  <div class="chat-input">
+    <input id="userInput" type="text" placeholder="Ask me about Berbin..." autocomplete="off">
+    <button id="sendMessage" aria-label="Send">➤</button>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
